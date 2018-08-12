@@ -2,8 +2,7 @@ body, * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	/*height: 4000px;*/
-	/*background-color: yellow;*/
+
 }
 
 @font-face {
@@ -75,11 +74,11 @@ div.nagja {
 	min-height: 40px;
 	padding: 0;
 	justify-content: center;
-	/*background-color: purple;*/
+
 }
 div.nagja ul {
 	display: inline;
-	/*background-color: grey;*/
+
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -93,8 +92,7 @@ div.nagja ul li {
 	text-align: center;
 	width: 105px;
 	height: 40px;
-	/*background-color: yellow;*/
-	/*border-right: 1px solid black;*/
+
 	line-height: 38px;
 	vertical-align: middle;
 }
@@ -139,11 +137,11 @@ div.content {
 	overflow: visible;
 	height: auto;
 	max-width: 100%;
-	/*background-color: yellow;*/
+
 	background-image: url("../img/back-pattern1.png");
 	background-repeat: repeat-x;
 	background-size: 100% 100%;
-	/*padding-bottom: 50px;*/
+	
 
 }
 div.img-dog {
@@ -151,25 +149,21 @@ div.img-dog {
 	margin-top: 50px;
 	float: left;
 	position: relative;
-	/*top: 200px;*/
-	/*width: 100%;*/
+	
 	background-attachment: cover;
 	background-size: 100% 100%;
-	/*min-height: 650px;*/
+	
 	width: 100%;
 	background-position: bottom;
 
 	background-repeat: no-repeat;
 	display: inline-block;
-	/*height: auto;*/
+
 }
 div.pocetna {
-	/*width: 100vw;*/
-	/*min-height: 650px;*/
+
 	height: auto;
-	/*background-color: white;*/
-	/*overflow: visible;*/
-	/*position: relative;*/
+
 }	
 .saznaj-back {
 	font-size: 25px;
@@ -209,8 +203,7 @@ div.pocetni-text {
 .pocetni-text p {
 	width: 350px;
 	height: 450px;
-	/*background-color: red;*/
-	/*justify-content: right;*/
+
 	text-align: right;
 	font-size: 22px;
 	overflow: visible;
@@ -241,17 +234,13 @@ div.back-first {
 /*second page - O nama*/
 
 div.onama {
-	/*position: absolute;*/
-	/*top: 100%;*/
+
 	width: 100%;
 	min-height: 900px;
 
 	background-color: #cccccc;
 }
-/*div.pocetni-text {
-	position: sticky;
-	top: 1vh;
-}*/
+
 
 div.content2 {
 	padding: 30px 30px;
@@ -262,7 +251,7 @@ div.content2 {
 	/*opacity: 0.3;*/
 	margin-top: 50px;
 	margin-bottom: 50px;
-	/*background-attachment: fixed;*/
+
 }
 div.martop {
 	border-bottom: 1px solid grey;
@@ -278,8 +267,7 @@ div.martop {
 }
 
 div.drugast {
-	/*min-height: 650px;*/
-	/*padding: 100px 10px;*/
+
 	display: inline-block;
 	max-width: 50%;
 	float: right;
@@ -303,13 +291,13 @@ img {
   max-width: 100%;
 }
 div.ada-pas {
-	/*padding: 100px 10px;*/
+
 	float: left;
 	max-width: 100%;
 	width: 50%;
 }
 div.usluge {
-	/*border-top: 1px solid grey;*/
+
 	position: relative;
 	width: 100%;
 	background-color: rgb(240,241,243);
@@ -343,16 +331,12 @@ div.content3 {
 	align-self: center;
 	min-height: 500px;
 	position: relative;
-	/*height: 400px;*/
-	/*min-height: 500px;*/
 	width: 100%;
-	/*background-color: red;*/
+	
 }
 div.usluge-content {
 	margin-top: 60px;
-	/*border: 1px solid grey;*/
-	/*border-left: 1px solid grey;*/
-	/*border-right: 1px solid grey;*/
+
 	background-color: white;
 	min-height: 400px;
 	width: 100%;
@@ -361,8 +345,7 @@ div.usluge-main2, div.usluge-main1, div.usluge-main3, div.usluge-main4, div.uslu
 	float: right;
 	width: 100%;
 	min-height: 250px;
-	/*padding: auto 10px;*/
-	/*margin: 0;*/
+
 
 }
 .usluge-content p {
@@ -385,9 +368,7 @@ div.usluge-main1, div.usluge-main4, div.usluge-main5 {
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
-	/*margin-top: 10px;*/
-	
-	/*width: 50%;*/
+
 }
 div.usluge-main2 {
 	background-image: url("../img/ada-pudlica-crna.jpg");
@@ -421,11 +402,7 @@ div.content-hrana {
 	height: auto;
 	width: 100%;
 	background-color: white;
-	/*margin-bottom: 50px;*/
-	/*background-image: url("../img/back-pattern1.png");
-	background-repeat: repeat-x;
-	background-size: 100% 100%;
-	transform: rotate(180deg);*/
+
 }
 .reasons img {
 	display: inline-block;
@@ -444,17 +421,13 @@ div.content-hrana {
 	display: inline-block;
 	max-width: 600px;
 	margin: auto;
-	/*margin-left: 0 auto;*/
+	
 	font-size: 25px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	text-align: center;
 }
-div.reasons {
-	/*height: auto;*/
-	/*background-color: red;*/
 
-}
 div.asortiman {
 	margin-top: 50px;
 }
@@ -483,18 +456,14 @@ div.asortiman p a {
 	color: #996633;
 }
 div.footer {
-	/*background-color: orange;*/
+
 	max-width: 1028px;
 	margin: 0 auto;
 	height: auto;
 	text-align: center;
 }
 
-/*div.footer  div {
-	height: 250px;
-	display: inline-block;
-	margin: 0 auto;
-}*/
+
 footer {
 	margin-top: 50px;
 	border-top: 2px solid red;
@@ -513,7 +482,7 @@ footer {
 	padding-top: 50px;
 	height: 40px;
 	width: 100%;
-	/*background-color: yellow;*/
+	
 }
 .jedan ul {
 	margin: 0 20px;
@@ -569,7 +538,7 @@ div.icons img {
 }
 div.footer-jedan {
 	max-width: 1028px;
-	/*background-color: pink;*/
+	
 	margin: 0 auto;
 }
 div.kontakt-foot p {
@@ -582,14 +551,13 @@ div.kontakt-foot p {
 
 @media only screen and (max-width: 750px) {
 	div.head-mp {
-		/*max-width: 750px;*/
-		/*width: 100%;*/
+		
 		padding: 0;
 		position: relative;
 		margin-left: 0 auto;
 	}
 	div.header {
-		/*height: 170px;*/
+		
 		position: relative;
 	}
 	div.royal {
@@ -600,10 +568,10 @@ div.kontakt-foot p {
 		position: absolute;
 		top: -30px;
 		
-		/*margin: 0;*/
+	
 	}
 	.royal h2 a {
-		/*text-align: center;*/
+	
 		font-size: 60px;
 	}
 	.royal h4 {
@@ -650,7 +618,7 @@ div.kontakt-foot p {
 		display: block;
 		width: 100%;
 		margin: auto;
-		/*padding: 10px 10px;*/
+		
 		margin: 10px 0;
 		min-height: auto;
 	}
@@ -660,21 +628,7 @@ div.kontakt-foot p {
 		min-height: 250px;
 		display: block;
 	}
-/*	div.display-block div {
-		position: relative;
-		float: left;
-		width: auto;
-	}*/
-	/*div.royal-foot {
-		float: right;
-		position: relative;
-	}*/
-	/*div.display-block div.kontakt {
-		float: right;
-		position: relative;
-		padding: 0;
-		margin-top: -30px;
-	}*/
+
 	div.foot-page {
 		text-align: center;
 	}
@@ -695,7 +649,7 @@ div.kontakt-foot p {
 
 
 
-/*gallery*/
+
 
 
 
