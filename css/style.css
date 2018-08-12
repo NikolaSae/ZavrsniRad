@@ -1,0 +1,135 @@
+body, * {
+	height: auto;
+	padding: 0;
+	margin: 0;
+	
+	/*box-sizing: border-box;
+	background-color: white;
+	height: 100%*/
+}
+#image-hold {
+	background-size: 100
+}
+.backg {
+	height: 600px;
+	/*float: left;*/
+	/*overflow: visible;*/
+	width: 100%;
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: scroll;*/
+	/*background-position: left;*/
+	background-size: 100%;
+	background-image: url("../img/dog-background-zoom.png");
+}
+.a100vh {
+	/*background-color: red;*/
+	/*overflow: visible;*/
+	min-height: 100vh;
+	min-width: 100vw;
+}
+div {
+	display: block;
+}
+div#welcome {
+	height: 100vh;
+	background: black;
+}
+ 
+div#projects {
+	height: 100vh;
+	background: yellow;
+}
+.col-9 {
+	height: 150px;
+	/*width: 100%;*/
+	background-color: white;
+	border-bottom: 2px solid #252726;
+	/*margin: 0 auto;
+	padding: 0 auto;*/
+}
+div.bez-paddinga {
+	margin: 0;
+	padding: 0;
+}
+/*.naviga {
+	height: 70px;
+}*/
+.col-6 ul li a {
+	font-size: 23px;
+	display: block;
+	height: 60px;
+	background-color: yellow;
+	padding: 0;
+	margin: 0;
+}
+div .lista {
+	align-items: center;
+	line-height: 40px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+@font-face {
+    font-family: "Birds of Paradise";
+    src: url("../fonts/Birds of Paradise Regular.ttf");
+}
+.royal {
+	margin-left: 100px;
+	font-size: 70px;
+	background-color: green;	
+	font-family: "Birds of Paradise", Regular, sans-serif;
+}
+.psi {
+	background-color: red;
+	position: absolute;
+	top: 54px;
+	right: 61px;
+	font-size: 9px;
+}
+.royal, .psi {
+	float: right;
+	overflow: visible;
+}
+span {
+	float: left;
+}
+.col-8 {
+	position: relative;
+	overflow: visible;
+	display: block;
+}
+.col-6 ul li {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+.col-3, .col-6, .col-2, .col-8 {
+	border-bottom: 2px solid #252726;
+	background-color: orange;
+}
+.head {
+	height: 100vh;
+	background-image: url("../img/back-pattern.png");
+	background-repeat: repeat-x;
+	/*min-height: 100vh;
+	width: 100vw;*/
+}
+.prva {
+	background-color: white;
+	/*background-image: url("../img/veseli-pas-dim.jpg");*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 30vh;
+	display: block;
+}
+.druga {
+	background-image: url("../img/o-nama-ada-i-crni.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 30vh;
+	display: block;
+}

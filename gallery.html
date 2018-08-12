@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery</title>
+	<link rel="stylesheet" href="css/style1.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+</head>
+<body>
+	<div class="pocetna" id="top">
+		<div class="row header bep">
+			<div class="col-12 col-xl-8 col-md-8 head-mp">
+				<div class="kontakt col-sm-auto col-md-auto">
+					<p>kontaktirajte nas: 060/6430774</p>
+					<p>e-mail: a.urosevic4@gmail.com</p>
+					
+				</div>
+				<div class="royal col-sm-auto col-md-auto">
+					<h2><a href="#">Royal</a></h2>
+					<h4>PANSION ZA PSE</h4>
+				</div>
+			</div>
+		</div>
+		<div class="row bep linija justify-content-end">
+			<div class="col-md-9 col-xl-9 col-12 gornja-linija"></div>
+		</div>
+		<div class="row bep justify-content-center naviga">
+			<div class="nagja col-6 col-md-6 col-xl-6 navbar">
+				<ul class="naviga">
+					<li><a href="index.html#top">POCETNA</a></li>
+					<li><a href="index.html#onama">O NAMA</a></li>
+					<li><a href="index.html#usluge">USLUGE</a></li>
+					<li><a href="#galerija.html">GALERIJA</a></li>
+					<li><a href="index.html#hrana">HRANA</a></li>
+					<li><a href="contactform.html">KONTAKT</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row bep linija justify-content-start">
+			<div class="col-md-9 col-xl-9 col-12 donja-linija"></div>
+		</div>
+<div class="row padding-l">
+  <div class="column">
+    <img src="img/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img6.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/img8.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="img/img1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="img/img2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="img/img3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="img/img4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="img/img5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="img/img6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="img/img7.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="img/img8.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="img/img1.jpg" style="width:100%" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img2.jpg" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img3.jpg" style="width:100%" onclick="currentSlide(3)" >
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img4.jpg" style="width:100%" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img5.jpg" style="width:100%" onclick="currentSlide(5)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img6.jpg" style="width:100%" onclick="currentSlide(6)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img7.jpg" style="width:100%" onclick="currentSlide(7)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/img8.jpg" style="width:100%" onclick="currentSlide(8)">
+    </div>
+  </div>
+</div>
+		<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,703 @@
+body, * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/*height: 4000px;*/
+	/*background-color: yellow;*/
+}
+
+@font-face {
+    font-family: "Birds of Paradise";
+    src: url("../fonts/Birds of Paradise Regular.ttf");
+}
+div.bep {
+	margin: 0;
+	padding: 0;
+}
+div.header {
+	justify-content: center;
+	height: 150px;
+	border-top: 1px solid grey;
+	
+}
+div.head-mp {
+	display: block;
+	padding: 0 20px 0 0;
+}
+.head-mp div {
+	display: inline-block;
+}
+div.royal {
+	height: 100px;
+	
+	float: right;
+}
+.kontakt {
+	padding-top: 65px;
+}
+.kontakt p {
+	color: #996633;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+}
+.royal h2 a {
+	line-height: 150px;
+	font-size: 80px;
+	font-family: "Birds of Paradise", Regular, sans-serif;
+	color: #252726;
+	text-decoration: none;
+
+}
+.royal h4 {
+	font-size: 12px;
+	position: absolute;
+	top: 101px;
+	right: 104px;
+	color: #996633;
+}
+
+
+
+
+div.linija {
+	height: 2px;
+	width: 100%;
+	
+}
+div.gornja-linija, div.donja-linija {
+	background-color: #252726;
+	height: 100%
+}
+
+
+div.nagja {
+	min-height: 40px;
+	padding: 0;
+	justify-content: center;
+	/*background-color: purple;*/
+}
+div.nagja ul {
+	display: inline;
+	/*background-color: grey;*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div.nagja ul li {
+
+	padding: 0;
+	display: inline-block;
+
+	text-align: center;
+	width: 105px;
+	height: 40px;
+	/*background-color: yellow;*/
+	/*border-right: 1px solid black;*/
+	line-height: 38px;
+	vertical-align: middle;
+}
+
+
+
+
+
+
+.naviga li a {
+	color: #252726;
+}
+.pocetni-text p a:hover {
+	display: inline-block;
+	color: gray;
+}
+div.nagja ul li a:link {
+	
+	font-size: 18px;
+	height: 40px;
+	width: 105px;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	vertical-align: center;
+	text-decoration: none;
+	display:inline-block;
+}
+.naviga li a:hover {
+	transition: 0.5s
+	background-color: grey;
+}
+div.nagja ul li:hover {
+	transition: 0.6s;
+	background-color: #dadada;
+	border-bottom: 2px solid red;
+}
+
+
+
+div.content {
+	overflow: visible;
+	height: auto;
+	max-width: 100%;
+	/*background-color: yellow;*/
+	background-image: url("../img/back-pattern1.png");
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	/*padding-bottom: 50px;*/
+
+}
+div.img-dog {
+	background-image: url("../img/dog-background-zoom1.png");
+	margin-top: 50px;
+	float: left;
+	position: relative;
+	/*top: 200px;*/
+	/*width: 100%;*/
+	background-attachment: cover;
+	background-size: 100% 100%;
+	/*min-height: 650px;*/
+	width: 100%;
+	background-position: bottom;
+
+	background-repeat: no-repeat;
+	display: inline-block;
+	/*height: auto;*/
+}
+div.pocetna {
+	/*width: 100vw;*/
+	/*min-height: 650px;*/
+	height: auto;
+	/*background-color: white;*/
+	/*overflow: visible;*/
+	/*position: relative;*/
+}	
+.saznaj-back {
+	font-size: 25px;
+	position: absolute;
+	bottom: -100px;
+	right: 30%;
+	height: 250px;
+	width: 250px;
+	border-radius:  125px;
+	background-color: rgba(255,0,0, 0.5);
+	overflow: hidden;
+
+}
+.saznaj {
+	text-decoration: none;
+}
+div.saznaj a {
+	overflow: hidden;
+	position: absolute;
+	right: 20%;
+	bottom: 45%;
+	color: orange;
+	text-decoration: none;
+	
+}
+div.saznaj a:hover {
+	color: gray;
+}
+div.pocetni-text {
+	float: right;
+	margin-top: 100px;
+	display: inline;
+	height: 450px;
+	text-align: right;
+	overflow: visible;
+}
+.pocetni-text p {
+	width: 350px;
+	height: 450px;
+	/*background-color: red;*/
+	/*justify-content: right;*/
+	text-align: right;
+	font-size: 22px;
+	overflow: visible;
+	display: block;
+}
+.pocetni-text p a {
+	color: #996633;
+	font-size: 18px;
+	text-decoration: none;
+	list-style-type: none;
+}
+.clearfix {
+	clear: both;
+}
+div.back-first {
+	border-top: 1px solid gray;
+	position: relative;
+	height: 25vh;
+	background-image: url("../img/veseli-pas-dim.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/*second page - O nama*/
+
+div.onama {
+	/*position: absolute;*/
+	/*top: 100%;*/
+	width: 100%;
+	min-height: 900px;
+
+	background-color: #cccccc;
+}
+/*div.pocetni-text {
+	position: sticky;
+	top: 1vh;
+}*/
+
+div.content2 {
+	padding: 30px 30px;
+	position: relative;
+	height: auto;
+	background-color: #ffffff;
+	width: 100%;
+	/*opacity: 0.3;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*background-attachment: fixed;*/
+}
+div.martop {
+	border-bottom: 1px solid grey;
+	align-content: center;
+	width: 100%;
+	min-height: 850px;
+	
+	background-image: url("../img/back2.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: cover;
+}
+
+div.drugast {
+	/*min-height: 650px;*/
+	/*padding: 100px 10px;*/
+	display: inline-block;
+	max-width: 50%;
+	float: right;
+	position: relative;
+}
+.content2 h3 {
+	display: block;
+	margin-bottom: 50px;
+	text-align: center;
+	color: #996633;
+	font-size: 35px;
+}
+.drugast p {
+	font-size: 16px;
+	text-align: justify;
+}
+img {
+	padding: 0px 10px;
+  display: inline-block;
+  max-height: 100%;
+  max-width: 100%;
+}
+div.ada-pas {
+	/*padding: 100px 10px;*/
+	float: left;
+	max-width: 100%;
+	width: 50%;
+}
+div.usluge {
+	/*border-top: 1px solid grey;*/
+	position: relative;
+	width: 100%;
+	background-color: rgb(240,241,243);
+}
+
+
+
+div.usluge-foot {
+	border-top: 1px solid grey;
+	height: 25vh;
+	background-color: red;
+	width: 100%;
+	position: relative;
+	background-image: url("../img/dog-wallpaper-41.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 50px;
+}
+div.backpic {
+	position: relative;
+	height: 25vh;
+	background-image: url("../img/dog-wallpaper-37.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+div.content3 {
+	align-self: center;
+	min-height: 500px;
+	position: relative;
+	/*height: 400px;*/
+	/*min-height: 500px;*/
+	width: 100%;
+	/*background-color: red;*/
+}
+div.usluge-content {
+	margin-top: 60px;
+	/*border: 1px solid grey;*/
+	/*border-left: 1px solid grey;*/
+	/*border-right: 1px solid grey;*/
+	background-color: white;
+	min-height: 400px;
+	width: 100%;
+}
+div.usluge-main2, div.usluge-main1, div.usluge-main3, div.usluge-main4, div.usluge-main5, div.usluge-main6 {
+	float: right;
+	width: 100%;
+	min-height: 250px;
+	/*padding: auto 10px;*/
+	/*margin: 0;*/
+
+}
+.usluge-content p {
+	justify-content: center;
+	padding: 0px 10px;
+	color: #252726;
+}
+div.usluge-main1 h5, div.usluge-main4 h5, div.usluge-main5 h5 {
+	text-align: center;
+	margin-top: 10px;
+	color: #252726;
+}
+div.usluge-main1, div.usluge-main4, div.usluge-main5 {
+	background-color: rgba(204,204,204, 50);
+	/*height: 250px;*/
+	/*width: 50%;*/
+	display: inline-block;
+}
+.usluge-main2 img, .usluge-main3 img, .usluge-main6 img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	/*margin-top: 10px;*/
+	
+	/*width: 50%;*/
+}
+div.usluge-main2 {
+	background-image: url("../img/ada-pudlica-crna.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+div.usluge-main3 {
+	background-image: url("../img/dog-alone-front-yard.png");
+	background-size: 100% 100%;
+}
+div.usluge-main6 {
+	background-image: url("../img/house-keeper.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+
+div.hrana {
+	background-image: url("../img/back-pattern.png");
+	background-size: 100% 100%;
+	min-height: auto;
+	width: 100%;
+}
+div.content-hrana {
+	padding: 20px;
+	border-left: 1px solid grey;
+	border: 1px solid grey;
+	margin-top: 50px;
+	overflow: visible;
+	height: auto;
+	width: 100%;
+	background-color: white;
+	/*margin-bottom: 50px;*/
+	/*background-image: url("../img/back-pattern1.png");
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	transform: rotate(180deg);*/
+}
+.reasons img {
+	display: inline-block;
+}
+.content-4 {
+	float: right;
+	width: 50%;
+}
+
+.dodaci-center {
+	max-width: 1280px;
+	width: 100%;
+	text-align: center;
+}
+.dodaci-center h5 {
+	display: inline-block;
+	max-width: 600px;
+	margin: auto;
+	/*margin-left: 0 auto;*/
+	font-size: 25px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+div.reasons {
+	/*height: auto;*/
+	/*background-color: red;*/
+
+}
+div.asortiman {
+	margin-top: 50px;
+}
+.asortiman h6 {
+	margin-top: 20px;
+	color: #996633;
+}
+.asortiman p {
+	font-size: 13px;
+}
+
+.asortiman div img {
+	float: left;
+	
+}
+div.asortiman p a {
+	padding-left: 10px;
+	text-decoration: none;
+	color: orange;
+}
+.font h6 {
+	font-size: 24px;
+}
+.font {
+	font-size: 20px;
+	color: #996633;
+}
+div.footer {
+	/*background-color: orange;*/
+	max-width: 1028px;
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+}
+
+/*div.footer  div {
+	height: 250px;
+	display: inline-block;
+	margin: 0 auto;
+}*/
+footer {
+	margin-top: 50px;
+	border-top: 2px solid red;
+	background-color: #663333;
+	min-height: 200px;
+}
+.jedan2 {
+	height: auto;
+	
+}
+.jedan1 {
+	height: auto;
+	
+}
+.jedan, .jedan2, .jedan1 {
+	padding-top: 50px;
+	height: 40px;
+	width: 100%;
+	/*background-color: yellow;*/
+}
+.jedan ul {
+	margin: 0 20px;
+}
+.foot-nav ul li a:hover {
+	color: red;
+}
+.foot-nav ul li a {
+	color: #996633;
+	text-decoration: none;
+}
+.foot-nav ul li  {
+
+	list-style-type: none;
+
+}
+div.foot-nav {
+	margin-top: 30px;
+}
+.foot-nav ul {
+	display: inline-block;
+
+}
+
+div.icons {
+	padding-top: 10px;
+	display: inline-block;
+}
+div.icons img {
+	width: 20%;
+}
+
+.royal-foot h2 a {
+	font-size: 80px;
+	font-family: "Birds of Paradise", Regular, sans-serif;
+	color: #252726;
+	text-decoration: none;
+}
+.royal-foot h4 {
+	display: inline-block;
+	font-size: 12px;
+	position: absolute;
+	top: 74px;
+	color: #996633;
+}
+.foot-page div {
+	display: inline-block;
+}
+.foot-page {
+	width: 100%;
+	
+	margin: 0 auto;
+}
+div.footer-jedan {
+	max-width: 1028px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+}
+div.kontakt-foot p {
+
+    color: #996633;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 750px) {
+	div.head-mp {
+		/*max-width: 750px;*/
+		/*width: 100%;*/
+		padding: 0;
+		position: relative;
+		margin-left: 0 auto;
+	}
+	div.header {
+		/*height: 170px;*/
+		position: relative;
+	}
+	div.royal {
+		
+		display: block;
+		width: 100%;
+		float: left;
+		position: absolute;
+		top: -30px;
+		
+		/*margin: 0;*/
+	}
+	.royal h2 a {
+		/*text-align: center;*/
+		font-size: 60px;
+	}
+	.royal h4 {
+		font-size: 9px;
+		width: 100%;
+		right: 0;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+	div.royal h2 {
+		text-align: center;
+	}
+	div.kontakt {
+		position: absolute;
+		top: 30px;
+		float: right;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	div.kontakt-foot {
+		position: relative;
+		width: 100%;
+		color: #996633;
+		font-size: 12px;
+		margin-left: 30px;
+	}
+	div.ada-pas {
+		display: block;
+		width: 100%;
+	}
+	div.drugast {
+		margin-top: 20px;
+		display: block;
+		max-width: 100%;
+	}
+	div.usluge-main1,
+	div.usluge-main2,
+	div.usluge-main3,
+	div.usluge-main4,
+	div.usluge-main5,
+	div.usluge-main6 {
+		display: block;
+		width: 100%;
+		margin: auto;
+		/*padding: 10px 10px;*/
+		margin: 10px 0;
+		min-height: auto;
+	}
+	div.usluge-main2,
+	div.usluge-main3,
+	div.usluge-main6 {
+		min-height: 250px;
+		display: block;
+	}
+/*	div.display-block div {
+		position: relative;
+		float: left;
+		width: auto;
+	}*/
+	/*div.royal-foot {
+		float: right;
+		position: relative;
+	}*/
+	/*div.display-block div.kontakt {
+		float: right;
+		position: relative;
+		padding: 0;
+		margin-top: -30px;
+	}*/
+	div.foot-page {
+		text-align: center;
+	}
+	div.kontakt-foot {
+
+    color: #996633;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+/*gallery*/
+
+
+
+
+
